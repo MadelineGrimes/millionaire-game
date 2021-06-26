@@ -71,14 +71,15 @@ def millionaire(rank,question,incorrect_answers,correct_answer):
 
 while level <= 16:
     print("-------------------------------------")
+    print("Welcome to Who Wants to Be a Millionaire! Test your knowledge for the grand prize.")
     if level >= 1 and level <= 5:
-      print("EASY QUESTIONS PROMPT")
+      #print("EASY QUESTIONS PROMPT")
       difficulty = easy_questions
     elif level >= 6 and level <= 10:
-      print("MEDIUM QUESTIONS PROMPT")
+      #print("MEDIUM QUESTIONS PROMPT")
       difficulty = med_questions
     elif level >= 11 and level <= 15:
-      print("HARD QUESTIONS PROMPT")
+      #print("HARD QUESTIONS PROMPT")
       difficulty = hard_questions
     elif level == 16:
       print("CONGRATS")
